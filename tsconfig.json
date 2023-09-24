@@ -3,7 +3,6 @@
     "lib": [
       "esnext"
     ],
-    "module": "CommonJS",
     "target": "esnext",
     "moduleResolution": "node",
     "declaration": true,
