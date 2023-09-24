@@ -1,16 +1,9 @@
 {
-  "version": 2,
-  "name": "nest",
-  "builds": [
-    {
-      "src": "src/main.ts",
-      "use": "@vercel/node"
+  "functions": {
+    "/api": {
+      "runtime": "@vercel/node@1.0.0",
+      "includeFiles": "dist/**",
+      "handler": "server.default"
     }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "src/main.ts"
-    }
-  ]
+  }
 }
