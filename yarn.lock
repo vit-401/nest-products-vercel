@@ -3118,7 +3118,7 @@
     "jest-message-util" "^28.1.3"
     "jest-util" "^28.1.3"
 
-"express@4.18.2":
+"express@^4.18.2", "express@4.18.2":
   "integrity" "sha512-5/PsL6iGPdfQ/lKM1UuielYgv3BUoJfz1aUwU9vHZ+J7gyvwdQXFEBIEIaxeGf0GIcreATNyBExtalisDbuMqQ=="
   "resolved" "https://registry.npmjs.org/express/-/express-4.18.2.tgz"
   "version" "4.18.2"
